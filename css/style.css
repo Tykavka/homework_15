@@ -28,8 +28,6 @@ body {
 	padding-bottom: 30px;
 }
 
-.achievement {
-}
 .achievement__title {
 	margin-bottom: 40px;
 }
@@ -61,11 +59,6 @@ body {
 	justify-content: flex-start;
 	flex: 0 1 334px;
 	row-gap: 20px;
-}
-.card__title {
-}
-.card__text {
-
 }
 h4 {
 	font-weight: 500;
@@ -158,11 +151,6 @@ h3 {
 	flex-wrap: wrap;
 	flex-direction: row;
 	column-gap: 80px;
-}
-.info__date {
-
-}
-.info__author {
 }
 
 .minimalist__images {
