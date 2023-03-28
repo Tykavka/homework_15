@@ -137,7 +137,7 @@ h3 {
 	flex-direction: column;
 	row-gap: 30px;
 	flex: 1 1;
-
+	margin-bottom: 60px;
 }
 .descriprion__section {
 	display: flex;
@@ -153,19 +153,21 @@ h3 {
 	column-gap: 80px;
 }
 
+
 .minimalist__images {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	row-gap: 32px;
+	margin: 0 -15px;
 }
-.minimalist__images img {
+.minimalist__images div:not(:last-child) {
+	margin-bottom: 32px;
+}
+.minimalist__images div:not(:nth-child(3)){
+	max-width: 49.8%;
+}
+.minimalist__item{
+	display: inline-block;
+	padding: 0 16px;
+}
+.minimalist__item img {
 	max-width: 100%;
 }
-.minimalist__items {
-	display: flex;
-	flex-wrap: nowrap;
-	flex-direction: row;
-	flex: 0 1 50%;
-	gap: 32px;
-}
+
